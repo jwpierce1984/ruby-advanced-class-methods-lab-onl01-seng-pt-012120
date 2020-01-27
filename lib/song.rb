@@ -10,5 +10,6 @@ class Song
     self.class.all << self
   end
 class self.new_by_name
-  self.name
+  
+end
 end
