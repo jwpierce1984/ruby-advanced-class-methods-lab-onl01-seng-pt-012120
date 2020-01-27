@@ -36,5 +36,5 @@ class Song
     self.all.sort_by {|a| a.name}
   end
   def self.new_from_filename (filename)
-    filename.to_s {||}
+    filename.split
 end
