@@ -9,6 +9,6 @@ class Song
   def save
     self.class.all << self
   end
-class Song.new_by_name
-  Song
+class self.new_by_name
+  self.name
 end
