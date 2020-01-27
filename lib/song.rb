@@ -9,13 +9,13 @@ class Song
   def save
     self.class.all << self
   end
-  def self.create
+  def self.create (song_name)
     song = Song.new
     song.save
     song
   end
   
-  def self.new_by_name
+  def self.new_by_name (song_name)
     song = song.create
   end
 end
